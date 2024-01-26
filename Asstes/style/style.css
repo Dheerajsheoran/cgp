@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@200;300;400;500;600;700;800&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Nunito:wght@200;300;400;500;600;800;900;1000&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Tomorrow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Clicker+Script&family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@200;300;400;500;600;700;800&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Nunito:wght@200;300;400;500;600;800;900;1000&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Tomorrow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cant {
+    background: url(/Asstes/img/Rectangle\ 30.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+.navbar-expand-lg {
+    max-width: 1120px;
+    width: 100%;
+    margin: auto;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.navbar-nav {
+    gap: 25px;
+    justify-content: end;
+    margin: 0px;
+}
+
+.nav-link {
+    margin-bottom: 0px;
+    width: 97px;
+    color: #FFF;
+    font-family: Tomorrow;
+    font-size: 15px;
+    font-style: normal; 
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-link:hover{
+    color: #36BEFF;
+    cursor: pointer;
+}
+
+.Docs {
+    font-family: Tomorrow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.collapse {
+    gap: 15px;
+    display: grid;
+    justify-content: end;
+
+
+    @media (max-width:991.98px) {
+        display: block;
+
+    }
+}
+
+.btn {
+    color: #FFF;
+    border-radius: 45px;
+    border: 1px solid #FFF;
+    text-align: center;
+    font-family: Tomorrow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 6px 22px;
+}
+
+.btn:hover {
+    background: #36BEFF !important;
+    color: #000;
+}
+
+.The-web3 {
+    color: #FFF;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 27px;
+
+
+    @media (max-width:767.98px) {
+        font-size: 55px;
+        margin-top: 0px;
+    }
+
+    @media (max-width:575.98px) {
+        font-size: 45px;
+        margin-top: 0px;
+    }
+}
+
+.View-API {
+    color: #FFF;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Tomorrow;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+
+    @media (max-width:767.98px) {
+        font-size: 15px;
+
+    }
+
+    @media (max-width:575.98px) {
+        font-size: 13px;
+        margin-top: 0px;
+    }
+}
+
+.btn-a {
+    margin: auto;
+    color: #FFF;
+    background: none;
+    border-radius: 45px;
+    border: 1px solid #FFF;
+    text-align: center;
+    padding: 11px 35px;
+    text-align: center;
+    font-family: Tomorrow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.btn-a:hover {
+    background: #36BEFF;
+    color: #000;
+    border: 1px solid #36BEFF;
+}
+
+.cant-a {
+    background: url(/Asstes/img/Rectangle\ 30\ \(2\).png) no-repeat center;
+    background-size: cover;
+
+}
+
+.Most-popular {
+    color: #FFF;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.maincant {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 35px;
+    row-gap: 24px;
+    margin-top: 67px;
+
+
+
+
+
+    @media (max-width:991.98px) {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, auto);
+        column-gap: 35px;
+        row-gap: 24px;
+    }
+
+    @media (max-width:575.98px) {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, auto);
+        column-gap: 35px;
+        row-gap: 24px;
+        margin-top: 47px;
+    }
+
+}
+
+.card-a {
+    max-width: 348px;
+    width: 100%;
+    padding: 26px 5px 23px 11px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #969696;
+    opacity: 0.55;
+    background: #475C83;
+    cursor: pointer;
+}
+
+.card-a:hover {
+    background: none;
+    
+}
+
+.NFT-API {
+    color: #FFF;
+    width: 174px;
+    margin-bottom: 0px;
+    font-family: Tomorrow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Easiest {
+    max-width: 291px;
+    width: 100%;
+    margin-bottom: 0px;
+    color: #FFF;
+    font-family: Tomorrow;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.14px;
+    margin-top: 23px;
+}
+
+.alchemy_pending {
+    max-width: 194px;
+    width: 100%;
+    color: #FFF;
+
+    margin-bottom: 0px;
+    font-family: Tomorrow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.What {
+    max-width: 243px;
+    width: 100%;
+    color: #FFF;
+    margin-bottom: 0px;
+    font-family: Tomorrow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.how {
+    max-width: 263px;
+    width: 100%;
+    color: #FFF;
+
+    font-family: Tomorrow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.cant-b {
+    background: url(/Asstes/img/Rectangle\ 35.png) no-repeat center;
+    background-size: cover;
+
+}
+
+.card-b:hover{
+    background: none;
+    cursor: pointer;
+}
+
+.learn {
+    color: #FFF;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.learn-card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 35px;
+    margin-top: 43px;
+
+
+
+    @media (max-width:991.98px) {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 35px;
+        flex-wrap: wrap;
+        padding-left: 30px;
+    }
+
+    @media (max-width:767.98px) {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 10px;
+        padding-left: 0px;
+    }
+}
+
+.card-b {
+    max-width: 348px;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #313131;
+    background: #000;
+    padding: 32px 0px 22px 11px;
+}
+
+.Alchemy-University {
+    max-width: 195px;
+    width: 100%;
+    color: #FFF;
+    font-family: Tomorrow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.Ethereum {
+    color: #9F9F9F;
+    max-width: 312px;
+    width: 100%;
+    font-family: Tomorrow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.view-a {
+    width: 140px;
+    color: #FFF;
+    margin-bottom: 0px;
+    font-family: Tomorrow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.Create {
+    width: 174px;
+    color: #FFF;
+    margin-bottom: 0px;
+    font-family: Tomorrow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.cant-c {
+    background: url(/Asstes/img/bg4.png) no-repeat center;
+    background-size: cover;
+
+}
+.card-c:hover{
+    background: none;
+    cursor: pointer;
+}
+
+
+.API {
+    text-align: center;
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+
+
+}
+
+.Including {
+    color: #FFF;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Tomorrow;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cant-cd {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 54px;
+
+
+
+    @media (max-width:767.98px) {
+        flex-direction: column;
+    }
+
+    @media (max-width:575.98px) {}
+}
+
+@media (max-width:767.98px) {
+    .mainnew {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+
+.cant-cdd {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+    margin-top: 42px;
+
+
+
+
+    @media (max-width:767.98px) {
+        flex-direction: column;
+        margin-top: -140px;
+
+    }
+
+    @media (max-width:575.98px) {}
+}
+
+.Ethereum-a {
+    color: #FFF;
+    margin-top: 17px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.cant-d {
+    background: url(/Asstes/img/bg5.png) no-repeat center;
+    background-size: cover;
+}
+
+.use {
+    color: #FFF;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.apis {
+    color: #FFF;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Tomorrow;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+.card-c {
+    max-width: 348px;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #313131;
+    background: #000;
+    padding: 32px 33px 22px 11px;
+}
+
+.newcard-b {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 35px;
+    row-gap: 24px;
+    margin-top: 46px;
+
+
+
+    @media (max-width:991.98px) {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 35px;
+        flex-wrap: wrap;
+        padding-left: 30px;
+    }
+
+    @media (max-width:767.98px) {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 10px;
+        padding-left: 0px;
+    }
+}
+
+.Ethereum-b {
+    color: #9F9F9F;
+    max-width: 300px;
+    width: 100%;
+    font-family: Tomorrow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.cant-e {
+    background: url(/Asstes/img/bg6.png) no-repeat center;
+    background-size: cover;
+}
+
+.get {
+    color: #ECF0F9;
+    margin-top: 38px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cant-f {
+    background: #000;
+}
+
+.cant-g {
+    max-width: 1115px;
+    width: 100%;
+    margin: auto;
+    padding: 81px 12px 40px;
+
+
+
+
+    @media (max-width:767.98px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+.manecant-g{
+    @media (max-width:767.98px) {
+        justify-content: center;
+    }
+    @media (max-width:575.98px) {
+        justify-content: center;
+        margin-top: 48px;
+    }
+}
+.manediv {
+    gap: 75px;
+
+    @media (max-width:767.98px) {
+        display: flex;
+        gap: 7px;
+        margin-top: 48px;
+
+    }
+}
+
+.powering {
+    color: #FFF;
+    margin-top: 29px;
+    font-family: Tomorrow;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 15px;
+}
+
+.APIs {
+
+    color: #FFF;
+    font-family: Tomorrow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.text {
+    color: #FFF;
+
+    font-family: Tomorrow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    /* 166.667% */
+    text-decoration-line: underline;
+    margin-bottom: 0px;
+}
+.copyright{
+    color: #939393;
+
+text-align: center;
+font-family: Tomorrow;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+margin-bottom: 0px;
+}
